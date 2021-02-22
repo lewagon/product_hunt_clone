@@ -1,1 +1,9 @@
-Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
+# Testing in Rails demo application
+
+An example app for the "Testing in Rails" lecture by [Le Wagon](https://www.lewagon.com)
+
+## Covering
+
+- Unit tests with MiniTest
+- System tests with Headless Chrome and Capybara
+- CI with GitHub Actions
