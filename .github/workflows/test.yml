@@ -1,0 +1,13 @@
+name: Test
+
+# triggers on
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest # runner
+    steps:
+      - name: Checkout repository # copies repo in runner
+        uses: actions/checkout@v2 # uses a GHA from https://github.com/marketplace?type=actions
+      - name: Hello World!
+        run: echo "Hello World!" # runs the script
