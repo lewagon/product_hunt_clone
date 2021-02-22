@@ -5,6 +5,9 @@ on: [push]
 
 jobs:
   test:
+    env:
+      RAILS_ENV: test
+      NODE_ENV: test
     runs-on: ubuntu-latest # runner
     services:
       # Label used to access the service container
